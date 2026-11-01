@@ -1,0 +1,13 @@
+# Language detection rules
+# Configuration for git attributes
+
+dist/* linguist-vendored
+package-lock.json linguist-generated
+
+vendor/* linguist-vendored
+public/**/*.html linguist-vendored
+*.json linguist-detectable=false
+*.min.css linguist-generated
+yarn.lock linguist-generated
+*.woff2 binary
+**/*.py linguist-detectable
